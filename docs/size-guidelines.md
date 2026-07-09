@@ -12,3 +12,9 @@ Use small files for remote import testing. Large files should be downloaded loca
 For package-like files, DeMinds may also check expanded size, file count, large resources, and processing time before completing import.
 
 Keep public samples much smaller than the limits unless a boundary test is explicitly needed.
+
+## Boundary-size sample
+
+`mindmap/sample-large-size.mindnode` is the explicit larger MindNode package for DeMinds size-boundary testing. It is about 19 MB, contains 20 files, and includes several image/PDF resources, with the largest image around 10 MB.
+
+Use it to verify guarded remote behavior, package resource accounting, local import fallback, and parser/performance handling near the mind map size boundary. Do not present it as an onboarding or first-run sample.

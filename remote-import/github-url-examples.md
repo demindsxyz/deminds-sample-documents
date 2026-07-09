@@ -14,4 +14,8 @@ Replace `main` if the repository uses a different default branch.
 - https://raw.githubusercontent.com/demindsxyz/deminds-sample-documents/main/markdown/structured-article.md
 - https://raw.githubusercontent.com/demindsxyz/deminds-sample-documents/main/mindmap/sample.mm
 
+## Tree URLs
+
+- https://github.com/demindsxyz/deminds-sample-documents/tree/main/mindmap/sample-large-size.mindnode
+
 Do not use repository home pages as file samples.

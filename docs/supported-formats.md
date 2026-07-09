@@ -10,7 +10,7 @@ This page reflects the current DeMinds DEV source checked for v0.1 of this repos
 | HTML | .html, .htm | html/ | GitHub file links are documented here as remote document imports. Web Article import is a separate path. |
 | DOCX | .docx | docx/ | DOCX imports produce Markdown while preserving the raw source in DeMinds. |
 | XMind | .xmind | mindmap/sample.xmind | Covered by the mind map parser. |
-| MindNode | .mindnode, .mindnode.zip | mindmap/sample.mindnode | Directory-style .mindnode packages are supported by the GitHub tree path when the package has a main entry. |
+| MindNode | .mindnode, .mindnode.zip | mindmap/sample.mindnode; mindmap/sample-large-size.mindnode | Includes a small file-style sample and a larger directory package for boundary-size checks. Directory-style .mindnode packages require a main entry such as `contents.xml` or `contents.data`. |
 | FreeMind | .mm | mindmap/sample.mm | Covered by the FreeMind parser. |
 | Markdown packages | .zip | packages/markdown-package-*.zip | Zip packages are accepted when they contain supported payloads. |
 
@@ -19,7 +19,6 @@ This page reflects the current DeMinds DEV source checked for v0.1 of this repos
 | Format | Reason |
 | --- | --- |
 | DeMinds Workspace Backup zip | Deferred for v0.1 because the available DEV demo backup is larger and contains mixed historical demo material. A smaller public-safe backup should be generated in a later pass. |
-| MindNode directory package via GitHub tree URL | Supported by remote preflight for .mindnode directory targets, but v0.1 includes a file-style .mindnode sample first. |
 
 ## Not currently supported from the checked source
 

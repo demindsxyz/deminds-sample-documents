@@ -17,3 +17,7 @@ Maintainer guard summary:
 - Stop or warn if file count exceeds 2,000.
 - Skip or warn for a single image resource above 20 MB.
 - Stop parsing after 20-30 seconds and suggest local import.
+
+Boundary-size sample:
+
+- `mindmap/sample-large-size.mindnode` is about 19 MB and should be used for guarded MindNode package checks near the mind map auto-import boundary.

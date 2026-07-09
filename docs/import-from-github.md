@@ -19,8 +19,9 @@ DeMinds does not clone repositories and does not browse an entire GitHub reposit
 - `https://github.com/demindsxyz/deminds-sample-documents/blob/main/markdown/structured-article.md`
 - `https://raw.githubusercontent.com/demindsxyz/deminds-sample-documents/main/markdown/structured-article.md`
 - `https://github.com/demindsxyz/deminds-sample-documents/blob/main/docx/synthetic-knowledge-asset.docx`
+- `https://github.com/demindsxyz/deminds-sample-documents/tree/main/mindmap/sample-large-size.mindnode`
 
-For old-style MindNode directory packages, use that path only when the current DeMinds source supports a GitHub tree URL for a .mindnode directory containing `contents.xml` or `contents.data`.
+For old-style MindNode directory packages, use a GitHub tree URL only when the current DeMinds source supports a .mindnode directory target containing `contents.xml` or `contents.data`. `mindmap/sample-large-size.mindnode` is a boundary-size package, not a recommended first remote import.
 
 ## What happens after paste
 

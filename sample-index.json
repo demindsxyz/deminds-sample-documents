@@ -169,6 +169,19 @@
     "notes": "Copied from tests/fixtures/Demos/01-Markdown + Mind Map Workspace.en.mindnode."
   },
   {
+    "path": "mindmap/sample-large-size.mindnode",
+    "title": "Large MindNode Package",
+    "format": "mindnode",
+    "extensions": [
+      ".mindnode"
+    ],
+    "recommended": false,
+    "remoteImport": "github-tree",
+    "expectedResult": "Exercises guarded MindNode directory-package import near the size boundary; remote import may reject and guide users to local import.",
+    "source": "public-boundary-fixture",
+    "notes": "About 19 MB, 20 files, with image/PDF resources. Use for boundary-size and resource-handling tests, not first-run demos."
+  },
+  {
     "path": "mindmap/sample.mm",
     "title": "Sample FreeMind Map",
     "format": "freemind",

@@ -1,6 +1,6 @@
 # DeMinds Sample Documents
 
-This repository provides small public sample files for DeMinds import testing, Guides, support material, and GitHub remote document import smoke checks.
+This repository provides mostly small public sample files for DeMinds import testing, Guides, support material, GitHub remote document import smoke checks, and explicit boundary-size checks.
 
 DeMinds is a local-first Markdown + mind map workspace for turning scattered content into maintainable knowledge assets.
 
@@ -9,14 +9,14 @@ DeMinds is a local-first Markdown + mind map workspace for turning scattered con
 - Stable public files for trying DeMinds-supported imports.
 - GitHub file links for remote import smoke testing.
 - Small examples for Guides, release QA, support pages, and demos.
-- A lightweight baseline for file type recognition, size checks, guarded download, and handoff into the normal DeMinds import flow.
+- Explicitly named boundary samples for file type recognition, size checks, guarded download, resource handling, and handoff into the normal DeMinds import flow.
 
 ## What this repository is not
 
 - It is not the DeMinds app source repository.
 - It is not the DeMinds product website.
 - It is not a full documentation site.
-- It is not a place for large, private, copyrighted, or confusing fixtures.
+- It is not a place for large, private, copyrighted, or confusing fixtures unless a larger public-safe file is explicitly documented as a boundary test.
 - It does not advertise unsupported future formats.
 
 ## Try a GitHub file link in DeMinds
@@ -40,7 +40,11 @@ GitHub is the recommended first remote source because file metadata can usually 
 
 ## Supported format overview
 
-Current v0.1 samples cover Markdown, text, HTML, DOCX, XMind, MindNode, FreeMind, and Markdown package zip files. OPML is not represented because the current parser entry point does not list OPML as a supported local input.
+Current v0.1 samples cover Markdown, text, HTML, DOCX, XMind, MindNode, MindNode directory packages, FreeMind, and Markdown package zip files. OPML is not represented because the current parser entry point does not list OPML as a supported local input.
+
+## Boundary samples
+
+- [Large MindNode Package](mindmap/sample-large-size.mindnode) is a public-safe MindNode directory package for DeMinds boundary-size and resource-handling checks. It is not a recommended first remote sample.
 
 See [supported formats](docs/supported-formats.md), [GitHub import notes](docs/import-from-github.md), and [size guidelines](docs/size-guidelines.md) for details.
 

@@ -1,7 +1,7 @@
 # Maintenance
 
 - Add only formats currently supported by DeMinds.
-- Keep files small, readable, and public-safe.
+- Keep files small, readable, and public-safe unless a larger sample is explicitly documented as a boundary test.
 - Avoid private, personal, copyrighted, account-specific, or overly noisy material.
 - Update sample-index.json whenever files are added, renamed, or removed.
 - Update remote-import/validation-matrix.md when remote behavior changes.

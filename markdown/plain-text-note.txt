@@ -1,0 +1,13 @@
+Build a Maintainable Knowledge Asset
+
+Capture
+- Save useful information from web pages, documents, and AI conversations.
+- Keep source context when it helps future review.
+
+Structure
+- Use headings for the main flow.
+- Use lists for decisions and open questions.
+
+Review
+- Read the Markdown first.
+- Use the Universal Mind Map to inspect structure.

@@ -1,0 +1,210 @@
+[
+  {
+    "path": "markdown/simple-note.md",
+    "title": "Simple Note",
+    "format": "markdown",
+    "extensions": [
+      ".md"
+    ],
+    "recommended": true,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports as Markdown and Universal Mind Map structure.",
+    "source": "synthetic",
+    "notes": "Small first-run note."
+  },
+  {
+    "path": "markdown/structured-article.md",
+    "title": "Structured Article",
+    "format": "markdown",
+    "extensions": [
+      ".md"
+    ],
+    "recommended": true,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports as Markdown and Universal Mind Map structure.",
+    "source": "synthetic",
+    "notes": "Primary tutorial-friendly Markdown sample."
+  },
+  {
+    "path": "markdown/project-brief.md",
+    "title": "Project Brief",
+    "format": "markdown",
+    "extensions": [
+      ".md"
+    ],
+    "recommended": false,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports as a short project brief.",
+    "source": "synthetic",
+    "notes": "Shows headings, decisions, and open questions."
+  },
+  {
+    "path": "markdown/knowledge-asset-outline.markdown",
+    "title": "Knowledge Asset Outline",
+    "format": "markdown",
+    "extensions": [
+      ".markdown"
+    ],
+    "recommended": true,
+    "remoteImport": "github-file",
+    "expectedResult": "Confirms .markdown follows the Markdown import path.",
+    "source": "synthetic",
+    "notes": "Boundary sample for .markdown extension."
+  },
+  {
+    "path": "markdown/plain-text-note.txt",
+    "title": "Plain Text Note",
+    "format": "text",
+    "extensions": [
+      ".txt"
+    ],
+    "recommended": true,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports through the Markdown/text path.",
+    "source": "synthetic",
+    "notes": "Plain text with Markdown-like structure."
+  },
+  {
+    "path": "html/clean-article.html",
+    "title": "Clean HTML Article",
+    "format": "html",
+    "extensions": [
+      ".html"
+    ],
+    "recommended": true,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports as a clean article and converts to Markdown.",
+    "source": "synthetic",
+    "notes": "Small HTML article without page chrome."
+  },
+  {
+    "path": "html/article-with-headings.html",
+    "title": "Article with Headings",
+    "format": "html",
+    "extensions": [
+      ".html"
+    ],
+    "recommended": false,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports headings and nested sections as readable Markdown.",
+    "source": "synthetic",
+    "notes": "Exercises heading structure."
+  },
+  {
+    "path": "html/article-with-images.html",
+    "title": "Article with Image",
+    "format": "html",
+    "extensions": [
+      ".html"
+    ],
+    "recommended": false,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports readable HTML; image behavior depends on the supported path.",
+    "source": "synthetic",
+    "notes": "Self-contained inline image sample."
+  },
+  {
+    "path": "docx/synthetic-knowledge-asset.docx",
+    "title": "Synthetic Knowledge Asset DOCX",
+    "format": "docx",
+    "extensions": [
+      ".docx"
+    ],
+    "recommended": true,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports as generated Markdown while preserving the raw DOCX source.",
+    "source": "synthetic",
+    "notes": "Small neutral DOCX created for this repository."
+  },
+  {
+    "path": "docx/structured-report.docx",
+    "title": "Structured Report DOCX",
+    "format": "docx",
+    "extensions": [
+      ".docx"
+    ],
+    "recommended": false,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports as DOCX-derived Markdown.",
+    "source": "copied-from-dev-fixture",
+    "notes": "Copied from tests/fixtures/Demos/03-DOCXSupportInDeminds1.docx."
+  },
+  {
+    "path": "docx/meeting-notes.docx",
+    "title": "Meeting Notes DOCX",
+    "format": "docx",
+    "extensions": [
+      ".docx"
+    ],
+    "recommended": false,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports as DOCX-derived Markdown.",
+    "source": "copied-from-dev-fixture",
+    "notes": "Copied from tests/fixtures/Demos/10-DOCXSupportInDeminds2.docx."
+  },
+  {
+    "path": "mindmap/sample.xmind",
+    "title": "Sample XMind Map",
+    "format": "xmind",
+    "extensions": [
+      ".xmind"
+    ],
+    "recommended": true,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports as Original Mind Map and Universal Mind Map.",
+    "source": "copied-from-dev-fixture",
+    "notes": "Copied from tests/fixtures/Demos/02-XmindSupportInDeMindsSample1.xmind."
+  },
+  {
+    "path": "mindmap/sample.mindnode",
+    "title": "Sample MindNode Map",
+    "format": "mindnode",
+    "extensions": [
+      ".mindnode"
+    ],
+    "recommended": true,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports as Original Mind Map and Universal Mind Map.",
+    "source": "copied-from-dev-fixture",
+    "notes": "Copied from tests/fixtures/Demos/01-Markdown + Mind Map Workspace.en.mindnode."
+  },
+  {
+    "path": "mindmap/sample.mm",
+    "title": "Sample FreeMind Map",
+    "format": "freemind",
+    "extensions": [
+      ".mm"
+    ],
+    "recommended": true,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports as a FreeMind mind map.",
+    "source": "synthetic",
+    "notes": "Small XML mind map for public remote import."
+  },
+  {
+    "path": "packages/markdown-package-basic.zip",
+    "title": "Markdown Package Basic",
+    "format": "archive",
+    "extensions": [
+      ".zip"
+    ],
+    "recommended": true,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports a zip package containing Markdown files.",
+    "source": "synthetic",
+    "notes": "Small package with Markdown entries."
+  },
+  {
+    "path": "packages/markdown-package-with-assets.zip",
+    "title": "Markdown Package with Assets",
+    "format": "archive",
+    "extensions": [
+      ".zip"
+    ],
+    "recommended": false,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports a Markdown package with a related asset when supported.",
+    "source": "synthetic",
+    "notes": "Small package with Markdown and SVG asset."
+  }
+]

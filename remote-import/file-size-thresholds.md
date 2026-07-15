@@ -24,4 +24,4 @@ Boundary-size sample:
 
 Normal-size directory package sample:
 
-- `mindmap/sample-directory.mindnode` is about 1.7 MB and should be used when validating ordinary GitHub tree import for directory-style MindNode packages.
+- `mindmap/sample-directory.mindnode` is about 812 KB and should be used when validating ordinary GitHub tree import for directory-style MindNode packages.

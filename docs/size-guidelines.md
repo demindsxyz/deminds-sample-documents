@@ -15,7 +15,7 @@ Keep public samples much smaller than the limits unless a boundary test is expli
 
 ## Normal-size directory package sample
 
-`mindmap/sample-directory.mindnode` is the small directory-style MindNode package for ordinary tree URL checks. It is about 1.7 MB and includes `contents.xml`, QuickLook preview data, and a few resources.
+`mindmap/sample-directory.mindnode` is the small directory-style MindNode package for ordinary tree URL checks. It is about 812 KB and includes `contents.xml`, QuickLook preview data, and a few resources.
 
 ## Boundary-size sample
 

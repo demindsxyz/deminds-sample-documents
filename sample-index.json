@@ -183,7 +183,7 @@
   },
   {
     "path": "mindmap/sample-directory.mindnode",
-    "title": "Small MindNode Directory Package",
+    "title": "Thriving in 2025 MindNode Directory Package",
     "format": "mindnode",
     "extensions": [
       ".mindnode"
@@ -192,7 +192,7 @@
     "remoteImport": "github-tree",
     "expectedResult": "Exercises directory-style MindNode import within the normal remote size target.",
     "source": "copied-from-dev-fixture",
-    "notes": "Copied from tests/fixtures/Demos/MindNodeSample3.mindnode; about 1.7 MB with contents.xml, QuickLook, and resources."
+    "notes": "Copied from tests/fixtures/mindnode/Thriving-in-2025.mindnode; about 812 KB with contents.xml, QuickLook, and resources."
   },
   {
     "path": "mindmap/sample-large-size.mindnode",
@@ -270,6 +270,6 @@
     "remoteImport": "github-file",
     "expectedResult": "Imports a Markdown-oriented package with Obsidian-style notes and image assets when package import is supported.",
     "source": "copied-from-dev-fixture",
-    "notes": "Copied from tests/fixtures/Demos/DeMinds_Obsidian_Sample_Package.zip; contains Markdown plus two PNG assets."
+    "notes": "Copied from tests/fixtures/markdown/DeMinds_Obsidian_Sample.zip; about 2.6 MB with Markdown notes, nested folders, and image assets."
   }
 ]

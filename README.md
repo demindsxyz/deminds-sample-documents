@@ -37,10 +37,17 @@ GitHub is the recommended first remote source because file metadata can usually 
 - [Structured Report DOCX](docx/structured-report.docx)
 - [Sample XMind Map](mindmap/sample.xmind)
 - [Sample FreeMind Map](mindmap/sample.mm)
+- [Obsidian Sample Package](packages/obsidian-sample-package.zip)
+
+## Additional DEV fixture samples
+
+- [Japanese DeMinds XMind Map](mindmap/xmind-ja-deminds.xmind) covers non-English XMind content.
+- [Small MindNode Directory Package](mindmap/sample-directory.mindnode) covers directory-style `.mindnode` import within the normal size target.
+- [DEV FreeMind Sample](mindmap/dev-freemind-sample.mm) covers a richer FreeMind fixture copied from DEV demos.
 
 ## Supported format overview
 
-Current v0.1 samples cover Markdown, text, HTML, DOCX, XMind, MindNode, MindNode directory packages, FreeMind, and Markdown package zip files. OPML is not represented because the current parser entry point does not list OPML as a supported local input.
+Current samples cover Markdown, text, HTML, DOCX, XMind, MindNode, MindNode directory packages, FreeMind, Markdown package zip files, and an Obsidian-style Markdown package zip. OPML is not represented because the current parser entry point does not list OPML as a supported local input.
 
 ## Boundary samples
 

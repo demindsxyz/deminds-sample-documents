@@ -21,3 +21,7 @@ Maintainer guard summary:
 Boundary-size sample:
 
 - `mindmap/sample-large-size.mindnode` is about 19 MB and should be used for guarded MindNode package checks near the mind map auto-import boundary.
+
+Normal-size directory package sample:
+
+- `mindmap/sample-directory.mindnode` is about 1.7 MB and should be used when validating ordinary GitHub tree import for directory-style MindNode packages.

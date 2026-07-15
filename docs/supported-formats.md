@@ -9,10 +9,10 @@ This page reflects the current DeMinds DEV source checked for v0.1 of this repos
 | Markdown / text | .md, .markdown, .txt | markdown/ | The current parser treats .md, .markdown, and .txt as Markdown-family inputs. |
 | HTML | .html, .htm | html/ | GitHub file links are documented here as remote document imports. Web Article import is a separate path. |
 | DOCX | .docx | docx/ | DOCX imports produce Markdown while preserving the raw source in DeMinds. |
-| XMind | .xmind | mindmap/sample.xmind | Covered by the mind map parser. |
-| MindNode | .mindnode, .mindnode.zip | mindmap/sample.mindnode; mindmap/sample-large-size.mindnode | Includes a small file-style sample and a larger directory package for boundary-size checks. Directory-style .mindnode packages require a main entry such as `contents.xml` or `contents.data`. |
-| FreeMind | .mm | mindmap/sample.mm | Covered by the FreeMind parser. |
-| Markdown packages | .zip | packages/markdown-package-*.zip | Zip packages are accepted when they contain supported payloads. |
+| XMind | .xmind | mindmap/sample.xmind; mindmap/xmind-ja-deminds.xmind | Covered by the mind map parser, including non-English text fixtures. |
+| MindNode | .mindnode, .mindnode.zip | mindmap/sample.mindnode; mindmap/sample-directory.mindnode; mindmap/sample-large-size.mindnode | Includes a small file-style sample, a normal-size directory package, and a larger directory package for boundary-size checks. Directory-style .mindnode packages require a main entry such as `contents.xml` or `contents.data`. |
+| FreeMind | .mm | mindmap/sample.mm; mindmap/dev-freemind-sample.mm | Covered by the FreeMind parser. |
+| Markdown / Obsidian-style packages | .zip | packages/markdown-package-*.zip; packages/obsidian-sample-package.zip | Zip packages are accepted when they contain supported Markdown-family payloads and related assets. |
 
 ## Supported by DeMinds but not yet represented in v0.1
 

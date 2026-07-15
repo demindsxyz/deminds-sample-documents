@@ -13,6 +13,10 @@ For package-like files, DeMinds may also check expanded size, file count, large 
 
 Keep public samples much smaller than the limits unless a boundary test is explicitly needed.
 
+## Normal-size directory package sample
+
+`mindmap/sample-directory.mindnode` is the small directory-style MindNode package for ordinary tree URL checks. It is about 1.7 MB and includes `contents.xml`, QuickLook preview data, and a few resources.
+
 ## Boundary-size sample
 
 `mindmap/sample-large-size.mindnode` is the explicit larger MindNode package for DeMinds size-boundary testing. It is about 19 MB, contains 20 files, and includes several image/PDF resources, with the largest image around 10 MB.

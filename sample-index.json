@@ -156,6 +156,19 @@
     "notes": "Copied from tests/fixtures/Demos/02-XmindSupportInDeMindsSample1.xmind."
   },
   {
+    "path": "mindmap/xmind-ja-deminds.xmind",
+    "title": "Japanese DeMinds XMind Map",
+    "format": "xmind",
+    "extensions": [
+      ".xmind"
+    ],
+    "recommended": false,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports as Original Mind Map and Universal Mind Map with non-English text.",
+    "source": "copied-from-dev-fixture",
+    "notes": "Copied from tests/fixtures/Demos/DeMinds の使い方.ja.xmind."
+  },
+  {
     "path": "mindmap/sample.mindnode",
     "title": "Sample MindNode Map",
     "format": "mindnode",
@@ -167,6 +180,19 @@
     "expectedResult": "Imports as Original Mind Map and Universal Mind Map.",
     "source": "copied-from-dev-fixture",
     "notes": "Copied from tests/fixtures/Demos/01-Markdown + Mind Map Workspace.en.mindnode."
+  },
+  {
+    "path": "mindmap/sample-directory.mindnode",
+    "title": "Small MindNode Directory Package",
+    "format": "mindnode",
+    "extensions": [
+      ".mindnode"
+    ],
+    "recommended": false,
+    "remoteImport": "github-tree",
+    "expectedResult": "Exercises directory-style MindNode import within the normal remote size target.",
+    "source": "copied-from-dev-fixture",
+    "notes": "Copied from tests/fixtures/Demos/MindNodeSample3.mindnode; about 1.7 MB with contents.xml, QuickLook, and resources."
   },
   {
     "path": "mindmap/sample-large-size.mindnode",
@@ -195,6 +221,19 @@
     "notes": "Small XML mind map for public remote import."
   },
   {
+    "path": "mindmap/dev-freemind-sample.mm",
+    "title": "DEV FreeMind Sample",
+    "format": "freemind",
+    "extensions": [
+      ".mm"
+    ],
+    "recommended": false,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports as a FreeMind mind map with richer styling and notes.",
+    "source": "copied-from-dev-fixture",
+    "notes": "Copied from tests/fixtures/Demos/FreemindSample1.mm."
+  },
+  {
     "path": "packages/markdown-package-basic.zip",
     "title": "Markdown Package Basic",
     "format": "archive",
@@ -219,5 +258,18 @@
     "expectedResult": "Imports a Markdown package with a related asset when supported.",
     "source": "synthetic",
     "notes": "Small package with Markdown and SVG asset."
+  },
+  {
+    "path": "packages/obsidian-sample-package.zip",
+    "title": "Obsidian Sample Package",
+    "format": "archive",
+    "extensions": [
+      ".zip"
+    ],
+    "recommended": true,
+    "remoteImport": "github-file",
+    "expectedResult": "Imports a Markdown-oriented package with Obsidian-style notes and image assets when package import is supported.",
+    "source": "copied-from-dev-fixture",
+    "notes": "Copied from tests/fixtures/Demos/DeMinds_Obsidian_Sample_Package.zip; contains Markdown plus two PNG assets."
   }
 ]

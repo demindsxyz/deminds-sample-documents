@@ -270,6 +270,6 @@
     "remoteImport": "github-file",
     "expectedResult": "Imports a Markdown-oriented package with Obsidian-style notes and image assets when package import is supported.",
     "source": "copied-from-dev-fixture",
-    "notes": "Copied from tests/fixtures/markdown/DeMinds_Obsidian_Sample.zip; about 2.6 MB with Markdown notes, nested folders, and image assets."
+    "notes": "Copied from tests/fixtures/Obsidian/StudyVault-main.zip; about 6.6 MB with Obsidian vault config, Markdown notes, nested folders, and image assets."
   }
 ]
